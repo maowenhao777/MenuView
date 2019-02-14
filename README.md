@@ -1,3 +1,5 @@
 # MenuView
-左上角，右上角菜单列表
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+左上角菜单列表
+![Image text](https://github.com/15346080710/MenuView/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%20XS%20Max%20-%202019-02-14%20at%2015.40.37.png)
+右上角菜单列表
+![Image text](https://github.com/15346080710/MenuView/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%20XS%20Max%20-%202019-02-14%20at%2015.40.41.png)
