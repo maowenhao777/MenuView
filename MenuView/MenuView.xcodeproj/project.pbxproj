@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		AAE37B5722154BF10016D860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B5622154BF10016D860 /* AppDelegate.m */; };
 		AAE37B5A22154BF10016D860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B5922154BF10016D860 /* ViewController.m */; };
-		AAE37B5D22154BF10016D860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE37B5B22154BF10016D860 /* Main.storyboard */; };
 		AAE37B5F22154BF40016D860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE37B5E22154BF40016D860 /* Assets.xcassets */; };
 		AAE37B6222154BF40016D860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE37B6022154BF40016D860 /* LaunchScreen.storyboard */; };
 		AAE37B6522154BF40016D860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B6422154BF40016D860 /* main.m */; };
 		AAE37B6F22154BF40016D860 /* MenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B6E22154BF40016D860 /* MenuViewTests.m */; };
 		AAE37B7A22154BF40016D860 /* MenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B7922154BF40016D860 /* MenuViewUITests.m */; };
+		AAE37B8922154D050016D860 /* MMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B8822154D050016D860 /* MMMenuView.m */; };
+		AAE37B8F22154DC00016D860 /* UIView+MM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE37B8E22154DC00016D860 /* UIView+MM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		AAE37B5622154BF10016D860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AAE37B5822154BF10016D860 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AAE37B5922154BF10016D860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AAE37B5C22154BF10016D860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE37B5E22154BF40016D860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE37B6122154BF40016D860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE37B6322154BF40016D860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		AAE37B7522154BF40016D860 /* MenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE37B7922154BF40016D860 /* MenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewUITests.m; sourceTree = "<group>"; };
 		AAE37B7B22154BF40016D860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE37B8722154D050016D860 /* MMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMenuView.h; sourceTree = "<group>"; };
+		AAE37B8822154D050016D860 /* MMMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMenuView.m; sourceTree = "<group>"; };
+		AAE37B8D22154DC00016D860 /* UIView+MM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MM.h"; sourceTree = "<group>"; };
+		AAE37B8E22154DC00016D860 /* UIView+MM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MM.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,10 @@
 				AAE37B5622154BF10016D860 /* AppDelegate.m */,
 				AAE37B5822154BF10016D860 /* ViewController.h */,
 				AAE37B5922154BF10016D860 /* ViewController.m */,
-				AAE37B5B22154BF10016D860 /* Main.storyboard */,
+				AAE37B8722154D050016D860 /* MMMenuView.h */,
+				AAE37B8822154D050016D860 /* MMMenuView.m */,
+				AAE37B8D22154DC00016D860 /* UIView+MM.h */,
+				AAE37B8E22154DC00016D860 /* UIView+MM.m */,
 				AAE37B5E22154BF40016D860 /* Assets.xcassets */,
 				AAE37B6022154BF40016D860 /* LaunchScreen.storyboard */,
 				AAE37B6322154BF40016D860 /* Info.plist */,
@@ -237,7 +244,6 @@
 			files = (
 				AAE37B6222154BF40016D860 /* LaunchScreen.storyboard in Resources */,
 				AAE37B5F22154BF40016D860 /* Assets.xcassets in Resources */,
-				AAE37B5D22154BF10016D860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE37B5A22154BF10016D860 /* ViewController.m in Sources */,
+				AAE37B8922154D050016D860 /* MMMenuView.m in Sources */,
 				AAE37B6522154BF40016D860 /* main.m in Sources */,
+				AAE37B8F22154DC00016D860 /* UIView+MM.m in Sources */,
 				AAE37B5722154BF10016D860 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AAE37B5B22154BF10016D860 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAE37B5C22154BF10016D860 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AAE37B6022154BF40016D860 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +444,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-22.MenuView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +461,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-22.MenuView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
